@@ -45,3 +45,10 @@ console.log(moment().set(
     "year": 1998,
     "date": 26
 }).format("dddd [the] Do [of] MMMM [in the year] YYYY"));
+
+
+const chalk = require("chalk");
+
+console.log(chalk.blue("Hello my dude"));
+console.log(chalk.red("Ur done"));
+console.log(chalk.green("Cool beans bro"));
